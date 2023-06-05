@@ -6,8 +6,7 @@ import { AppComponent } from './app.component';
 import { ClientsModule } from './clients/clients.module';
 import { EmployeesComponent } from "./employees/employees.component";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
-import {MatButtonModule} from '@angular/material/button';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
     declarations: [
@@ -21,7 +20,7 @@ import {MatButtonModule} from '@angular/material/button';
         ClientsModule,
         EmployeesComponent,
         BrowserAnimationsModule,
-        MatButtonModule
+        SharedModule
     ]
 })
 export class AppModule { }
